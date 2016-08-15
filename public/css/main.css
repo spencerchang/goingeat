@@ -1,0 +1,17 @@
+body{
+	font-family:"Microsoft YaHei";
+	background-color: #F9F9F9;
+}
+
+#bg_img{
+    width:100%;
+}
+
+#find_block {
+	margin-top: -10%;
+}
+
+#map {
+	background-color: #255625;
+	height:500px;
+}
