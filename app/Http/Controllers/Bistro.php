@@ -24,7 +24,7 @@ class Bistro extends Controller {
      * @return void
      */
     public function __construct(BistroRepository $bistros) {
-        $this->middleware('auth');
+//        $this->middleware('auth');
 
         $this->bistros = $bistros;
     }
@@ -36,8 +36,10 @@ class Bistro extends Controller {
      * @return Response
      */
     public function index(Request $request) {
+        print_r($this->bistros->update(1,array('name'=>'a123423w323424')));
+        exit;
         return view('bistro.bistro', [
-            'bistros' => $this->bistros->forUser($request->user()),
+            'bistros' => $this->bistros->findAll(),
         ]);
     }
 

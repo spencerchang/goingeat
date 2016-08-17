@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
 
         <!-- bootstrap.css v3.3.7 -->
-        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap/css/bootstrap.min.css" />
         
         <!-- masonry.css v1.0.0 -->
         <link rel="stylesheet" type="text/css" href="css/masonry.css" />
@@ -22,39 +22,6 @@
 
         <!-- main.css v1.0.0 -->
         <link rel="stylesheet" href="css/main.css">
-
-        <!--jquery v2.2.4-->
-        <script src="js/lib/jquery/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--jquery-migrate v1.4.1-->
-        <script src="js/lib/jquery/jquery-migrate-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--jquery.placeholder v2.3.1-->
-        <script src="js/lib/jquery.placeholder/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!-- bootstrap.js v3.3.7 -->
-        <script src="js/lib/bootstrap/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--tweenmax v1.19.0-->
-        <script src="js/lib/TweenMax/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--masonry v4.1.0-->
-        <script src="js/lib/masonry/masonry.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--isotope v3.0.1-->
-        <script src="js/lib/isotope/isotope.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--imagesLoaded v4.1.0-->
-        <script src="js/lib/imagesloaded/imagesloaded.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--map api-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDiyWDIUlw5bH0L2Dj5Buzz1vOSV8NR2M&callback=initMap" async defer></script>
-
-        <!--main.js v1.0.0-->
-        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-
-        <!--map.js v1.0.0-->
-        <script src="js/map.js" type="text/javascript" charset="utf-8"></script>
 
         {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
@@ -116,6 +83,39 @@
         </nav>
 
         @yield('content')
+
+        <!--jquery v2.2.4-->
+        <script src="js/lib/jquery/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--jquery-migrate v1.4.1-->
+        <script src="js/lib/jquery/jquery-migrate-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--jquery.placeholder v2.3.1-->
+        <script src="js/lib/jquery.placeholder/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- bootstrap.js v3.3.7 -->
+        <script src="js/lib/bootstrap/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--tweenmax v1.19.0-->
+        <script src="js/lib/TweenMax/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--masonry v4.1.0-->
+        <script src="js/lib/masonry/masonry.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--isotope v3.0.1-->
+        <script src="js/lib/isotope/isotope.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--imagesLoaded v4.1.0-->
+        <script src="js/lib/imagesloaded/imagesloaded.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--map api-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDiyWDIUlw5bH0L2Dj5Buzz1vOSV8NR2M&callback=initMap" async defer></script>
+
+        <!--main.js v1.0.0-->
+        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+        <!--map.js v1.0.0-->
+        <script src="js/map.js" type="text/javascript" charset="utf-8"></script>
 
         {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 </body>

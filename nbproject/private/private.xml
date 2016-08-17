@@ -3,16 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Repositories/BistroRepository.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Member.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Policies/BistroPolicy.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Tb_bistro.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Http/Controllers/Bistro.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Providers/AuthServiceProvider.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/app/Http/routes.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/public/.htaccess</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/resources/views/bistro/bistro.blade.php</file>
-            <file>file:/Users/Spencer/Dropbox/laravel/dev-goingeat/resources/views/layouts/app.blade.php</file>
+            <file>file:/Users/Spencer/Dropbox/laravel/goingeat/resources/views/bistro/bistro.blade.php</file>
+            <file>file:/Users/Spencer/Dropbox/laravel/goingeat/app/Tb_bistro.php</file>
+            <file>file:/Users/Spencer/Dropbox/laravel/goingeat/resources/views/layouts/app.blade.php</file>
         </group>
     </open-files>
 </project-private>
